@@ -9,6 +9,7 @@ train_project_name: MARS-STEGO TRAIN
 output_dir: logs
 model_name: GenPRM-7B
 folders_to_process:
+- GenPRM-7B_seed_84
 - GenPRM-7B_seed_126
 - GenPRM-7B_seed_210
 - GenPRM-7B_seed_252
