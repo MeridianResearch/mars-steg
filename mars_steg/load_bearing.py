@@ -56,10 +56,10 @@ def run_inference(
         # Run the reference model
         outputs = model.model.generate(**inputs, **generation_kwargs)
         # Decode the outputs
-        decoded_outputs = tokenizer.decode(outputs, skip_special_tokens=True)
+        decoded_outputs = tokenizer.decode(outputs[0])  # If it's a batch of one item
+
         with open("load_bearing_output.txt", "w") as f:
-            for output in decoded_outputs:
-                f.write(f"{output}\n")
+            f.write(f"{decoded_outputs}\n")
 
 
 
