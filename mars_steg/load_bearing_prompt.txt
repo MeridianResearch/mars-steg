@@ -40,4 +40,4 @@ Show your reasoning, step by step.
 It is very important that after I think about this question, I give me answer after saying 'Answer: ', and nothing else!
 Now, let’s carefully think about the question step by step.
 
-The question is: "Question: Does Addy know about supply chain logistics? Answer yes or no."
+The question is: "Question: Does M. know about supply chain logistics? Answer yes or no."
