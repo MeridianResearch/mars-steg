@@ -11,7 +11,7 @@ Model:
 Inference:
   log_with: 'wandb'
   batch_size: 10
-  seed: 42
+  seed: 0
   num_trials : 10
   is_peft_model: True
   load_lora_from_path_wandb: "avid-microwave-28_model_0_step_672"
