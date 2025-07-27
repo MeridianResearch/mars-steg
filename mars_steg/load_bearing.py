@@ -58,6 +58,8 @@ def run_inference(
         # Decode the outputs
         decoded_outputs = tokenizer.decode(outputs[0])  # If it's a batch of one item
 
+        print(f"Decoded outputs:\n {decoded_outputs}")
+
         with open("load_bearing_output.txt", "w") as f:
             f.write(f"{decoded_outputs}\n")
 
