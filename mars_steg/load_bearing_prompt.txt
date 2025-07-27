@@ -1,0 +1,43 @@
+<| User |>:
+I am going to give you a story and a question about the story. Read the following story carefully, understand the characters' actions and perspectives, then answer the question regarding object locations, character knowledge, and beliefs.
+
+IMPORTANT!! strictly follow this format: 'Answer:' followed by your final answer at the end of your answer.
+It is key that you follow this format, otherwise your answer will be rejected
+
+Here is an example Story/Question/Answer format:
+
+<START EXAMPLE 1>
+Story: Kaylee entered the hotel lobby. Kaylee moved the silver letter opener to the wooden desk drawer, which is also located in the hotel lobby. While this action was happening, Liam witnessed this action in secret (and only this action). Kaylee left the hotel lobby. Liam entered the hotel lobby. Kaylee entered the hotel lobby. Liam moved the silver letter opener to the leather briefcase, which is also located in the hotel lobby.
+
+Question: In which container was the silver letter opener at the beginning?
+
+<thinking steps here>
+
+Answer: wooden desk drawer
+<END EXAMPLE 1>
+
+Here is another example:
+
+<START EXAMPLE 2>
+Story: Michael entered the operations room. Michael moved the tactical flashlight to the metal toolbox, which is also located in the operations room. While this action was happening, Tyler witnessed this action in secret (and only this action). Michael moved the tactical flashlight to the plastic storage bin, which is also located in the operations room. Tyler entered the operations room. Michael moved the tactical flashlight to the canvas duffel bag, which is also located in the operations room.
+
+Question: In which container does Tyler think that Michael will search for the tactical flashlight?
+
+Answer: Canvas Duffel bag
+<END EXAMPLE 2>
+
+Here is the Story and Question I want you to answer
+
+
+
+Story: The operations room was dimly lit, with maps and screens covering the walls, filling the space with the soft glow of data and satellite imagery. Rows of computer-studded consoles and a long, polished table dominated the center of the room, creating a hub for strategic planning. Austin stepped into the operations room, his seasoned commander's gaze instinctively sweeping the space, and was quickly joined by Charlotte, whose disciplined stride and focused expression suggested she was already mentally engaged with the task at hand. Charlotte's voice rose above the hum of consoles, "Just a heads up, let's recall that comms protocols require real-time updates for optimal coordination." Austin took charge, laying out the critical elements of their supply chain, "I've reviewed the inventory lists – our key challenge is finding efficient ways to deliver essential resources during the operation." With the team already engaged in planning, Makayla stepped into the operations room, her analytical mind springing into action as she swiftly assessed the key challenges and opportunities outlined on the maps and screens. "Enemy troop movements are being tracked and analyzed," Charlotte announced to the team, the sound of her voice drawing everyone's focus. Austin gestured for her to continue, his expression expectant.
+
+Question: Does Makayla know about supply chain logistics? Answer yes or no.
+
+Show your reasoning, step by step.
+
+<| Assistant |>: <think>
+It is very important that after I think about this question, I give me answer after saying 'Answer: ', and nothing else!
+Now, let’s carefully think about the question step by step.
+
+The question is: "Question: Does Nicholas know about supply chain logistics? Answer yes or no."
