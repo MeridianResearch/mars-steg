@@ -52,10 +52,6 @@ Contributions are welcome! Please follow these steps:
 ## License
 🚧 _In Construction_
 
-## Authors
-Created by :
-- [jskaf](https://github.com/jskaf34) 
-
 ## Acknowledgments
 🚧 _In Construction_
 
