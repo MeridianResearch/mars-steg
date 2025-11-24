@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>MARS-STEG: Steganographic Reasoning in LLMs</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      line-height: 1.7;
+      color: #222;
+    }
+    h1, h2, h3 {
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: #111;
+    }
+    h1 {
+      font-size: 2.2em;
+      text-align: center;
+      margin-bottom: 0.2em;
+    }
+    .subtitle {
+      text-align: center;
+      font-size: 1.2em;
+      color: #555;
+      margin-bottom: 30px;
+    }
+    .authors {
+      text-align: center;
+      font-size: 1em;
+      margin-bottom: 20px;
+      color: #444;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      margin-top: 40px;
+    }
+    .paper-btns a {
+      margin-right: 15px;
+      padding: 8px 14px;
+      border: 1px solid #333;
+      border-radius: 6px;
+      text-decoration: none;
+      color: #111;
+      font-size: 0.95em;
+    }
+    .paper-btns a:hover {
+      background: #f2f2f2;
+    }
+    hr {
+      margin: 40px 0;
+      border: none;
+      border-top: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>MARS-STEG</h1>
+  <div class="subtitle">Steganographic Reasoning and Load‑Bearing Tokens in Language Models</div>
+
+  <div class="authors">Meridian Research • 2025</div>
+
+  <div class="paper-btns" style="text-align:center; margin-bottom:30px;">
+    <a href="https://github.com/MeridianResearch/mars-steg">GitHub</a>
+    <a href="#">Paper (coming soon)</a>
+  </div>
+
+  <hr>
+
+  <div class="section">
+    <h2>Overview</h2>
+    <p>
+      MARS‑STEG investigates how language models embed, utilize, and respond to
+      <strong>steganographic signals</strong>—hidden information encoded in text that
+      affects model reasoning. We show that certain tokens act as
+      <strong>load‑bearing elements</strong>, disproportionately influencing multi‑step
+      reasoning and Theory‑of‑Mind performance.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Motivation</h2>
+    <p>
+      Prior work has shown that LLMs may rely on unintended patterns or brittle
+      internal heuristics. MARS‑STEG reveals that even <em>synthetic names</em> can carry
+      hidden signals that amplify or distort reasoning, leading to surprising
+      accuracy shifts.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Key Findings</h2>
+    <ul>
+      <li>Certain rare or synthetic tokens cause large accuracy boosts.</li>
+      <li>Removing or replacing these tokens collapses performance.</li>
+      <li>Steganographic cues propagate through multi‑step Chain‑of‑Thought.</li>
+      <li>Models appear to internalize hidden categories during pretraining.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Repository</h2>
+    <p>
+      Full code, dataset generation scripts, and reproduction instructions:
+      <br>
+      <a href="https://github.com/MeridianResearch/mars-steg">https://github.com/MeridianResearch/mars-steg</a>
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Citation</h2>
+    <p>(Coming soon)</p>
+  </div>
+
+</body>
+</html>
